@@ -10,7 +10,7 @@
 
   <groupId>com.hundsun.jres.studio</groupId>
   <artifactId>sonar-hs-rule-plugin</artifactId>
-  <version>1.0</version>
+  <version>1.0.0</version>
   <packaging>sonar-plugin</packaging>
 
   <name>SonarQube PMD Plugin</name>
