@@ -1,0 +1,1 @@
+# sonar-hs-rule
