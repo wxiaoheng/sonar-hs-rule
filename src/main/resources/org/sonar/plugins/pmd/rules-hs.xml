@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rules>
+  <rule key="CommentsMustBeJavadocFormatRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hs-comment.xml/CommentsMustBeJavadocFormatRule]]></configKey>
+  </rule>
+  <rule key="AbstractMethodOrInterfaceMethodMustUseJavadocRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hs-comment.xml/AbstractMethodOrInterfaceMethodMustUseJavadocRule]]></configKey>
+  </rule>
+  <rule key="ClassMustHaveAuthorRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hs-comment.xml/ClassMustHaveAuthorRule]]></configKey>
+  </rule>
+  <rule key="EnumConstantsMustHaveCommentRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hs-comment.xml/EnumConstantsMustHaveCommentRule]]></configKey>
+  </rule>
+  <rule key="AvoidCommentBehindStatementRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hs-comment.xml/AvoidCommentBehindStatementRule]]></configKey>
+  </rule>
+  <rule key="RemoveCommentedCodeRule">
+    <priority>MINOR</priority>
+    <configKey><![CDATA[rulesets/java/hs-comment.xml/RemoveCommentedCodeRule]]></configKey>
+  </rule>
+  <rule key="ThreadPoolCreationRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hs-concurrent.xml/ThreadPoolCreationRule]]></configKey>
+  </rule>
+  <rule key="AvoidUseTimerRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hs-concurrent.xml/AvoidUseTimerRule]]></configKey>
+  </rule>
+  <rule key="AvoidManuallyCreateThreadRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hs-concurrent.xml/AvoidManuallyCreateThreadRule]]></configKey>
+  </rule>
+  <rule key="ThreadShouldSetNameRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hs-concurrent.xml/ThreadShouldSetNameRule]]></configKey>
+  </rule>
+  <rule key="AvoidCallStaticSimpleDateFormatRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hs-concurrent.xml/AvoidCallStaticSimpleDateFormatRule]]></configKey>
+  </rule>
+  <rule key="ThreadLocalShouldRemoveRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hs-concurrent.xml/ThreadLocalShouldRemoveRule]]></configKey>
+  </rule>
+  <rule key="AvoidConcurrentCompetitionRandomRule">
+    <priority>MINOR</priority>
+    <configKey><![CDATA[rulesets/java/hs-concurrent.xml/AvoidConcurrentCompetitionRandomRule]]></configKey>
+  </rule>
+  <rule key="CountDownShouldInFinallyRule">
+    <priority>MINOR</priority>
+    <configKey><![CDATA[rulesets/java/hs-concurrent.xml/CountDownShouldInFinallyRule]]></configKey>
+  </rule>
+  <rule key="UpperEllRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hs-constant.xml/UpperEllRule]]></configKey>
+  </rule>
+  <rule key="UndefineMagicConstantRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hs-constant.xml/UndefineMagicConstantRule]]></configKey>
+  </rule>
+  <rule key="MethodReturnWrapperTypeRule">
+    <priority>MINOR</priority>
+    <configKey><![CDATA[rulesets/java/hs-exception.xml/MethodReturnWrapperTypeRule]]></configKey>
+  </rule>
+  <rule key="AvoidReturnInFinallyRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hs-exception.xml/AvoidReturnInFinallyRule]]></configKey>
+  </rule>
+  <rule key="TransactionMustHaveRollbackRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hs-exception.xml/TransactionMustHaveRollbackRule]]></configKey>
+  </rule>
+  <rule key="SwitchStatementRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hs-flowcontrol.xml/SwitchStatementRule]]></configKey>
+  </rule>
+  <rule key="NeedBraceRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hs-flowcontrol.xml/NeedBraceRule]]></configKey>
+  </rule>
+  <rule key="AvoidComplexConditionRule">
+    <priority>MAJOR</priority>
+    <configKey><![CDATA[rulesets/java/hs-flowcontrol.xml/AvoidComplexConditionRule]]></configKey>
+  </rule>
+  <rule key="AvoidNegationOperatorRule">
+    <priority>MAJOR</priority>
+    <configKey><![CDATA[rulesets/java/hs-flowcontrol.xml/AvoidNegationOperatorRule]]></configKey>
+  </rule>
+  <rule key="ClassNamingShouldBeCamelRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hs-naming.xml/ClassNamingShouldBeCamelRule]]></configKey>
+  </rule>
+  <rule key="AbstractClassShouldStartWithAbstractNamingRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hs-naming.xml/AbstractClassShouldStartWithAbstractNamingRule]]></configKey>
+  </rule>
+  <rule key="ExceptionClassShouldEndWithExceptionRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hs-naming.xml/ExceptionClassShouldEndWithExceptionRule]]></configKey>
+  </rule>
+  <rule key="TestClassShouldEndWithTestNamingRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hs-naming.xml/TestClassShouldEndWithTestNamingRule]]></configKey>
+  </rule>
+  <rule key="LowerCamelCaseVariableNamingRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hs-naming.xml/LowerCamelCaseVariableNamingRule]]></configKey>
+  </rule>
+  <rule key="AvoidStartWithDollarAndUnderLineNamingRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hs-naming.xml/AvoidStartWithDollarAndUnderLineNamingRule]]></configKey>
+  </rule>
+  <rule key="ConstantFieldShouldBeUpperCaseRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hs-naming.xml/ConstantFieldShouldBeUpperCaseRule]]></configKey>
+  </rule>
+  <rule key="ServiceOrDaoClassShouldEndWithImplRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hs-naming.xml/ServiceOrDaoClassShouldEndWithImplRule]]></configKey>
+  </rule>
+  <rule key="PackageNamingRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hs-naming.xml/PackageNamingRule]]></configKey>
+  </rule>
+  <rule key="BooleanPropertyShouldNotStartWithIsRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hs-naming.xml/BooleanPropertyShouldNotStartWithIsRule]]></configKey>
+  </rule>
+  <rule key="ArrayNamingShouldHaveBracketRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hs-naming.xml/ArrayNamingShouldHaveBracketRule]]></configKey>
+  </rule>
+  <rule key="WrapperTypeEqualityRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hs-oop.xml/WrapperTypeEqualityRule]]></configKey>
+  </rule>
+  <rule key="PojoMustUsePrimitiveFieldRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hs-oop.xml/PojoMustUsePrimitiveFieldRule]]></configKey>
+  </rule>
+  <rule key="PojoNoDefaultValueRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hs-oop.xml/PojoNoDefaultValueRule]]></configKey>
+  </rule>
+  <rule key="PojoMustOverrideToStringRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hs-oop.xml/PojoMustOverrideToStringRule]]></configKey>
+  </rule>
+  <rule key="StringConcatRule">
+    <priority>MAJOR</priority>
+    <configKey><![CDATA[rulesets/java/hs-oop.xml/StringConcatRule]]></configKey>
+  </rule>
+  <rule key="IbatisMethodQueryForListRule">
+    <priority>MINOR</priority>
+    <configKey><![CDATA[rulesets/java/hs-orm.xml/IbatisMethodQueryForListRule]]></configKey>
+  </rule>
+  <rule key="AvoidPatternCompileInMethodRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hs-other.xml/AvoidPatternCompileInMethodRule]]></configKey>
+  </rule>
+  <rule key="AvoidApacheBeanUtilsCopyRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hs-other.xml/AvoidApacheBeanUtilsCopyRule]]></configKey>
+  </rule>
+  <rule key="AvoidNewDateGetTimeRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hs-other.xml/AvoidNewDateGetTimeRule]]></configKey>
+  </rule>
+  <rule key="AvoidMissUseOfMathRandomRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hs-other.xml/AvoidMissUseOfMathRandomRule]]></configKey>
+  </rule>
+  <rule key="UseRightCaseForDateFormatRule">
+    <priority>MAJOR</priority>
+    <configKey><![CDATA[rulesets/java/hs-other.xml/UseRightCaseForDateFormatRule]]></configKey>
+  </rule>
+  <rule key="">
+    <priority/>
+  </rule>
+  <rule key="ClassCastExceptionWithToArrayRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hs-set.xml/ClassCastExceptionWithToArrayRule]]></configKey>
+  </rule>
+  <rule key="UnsupportedExceptionWithModifyAsListRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hs-set.xml/UnsupportedExceptionWithModifyAsListRule]]></configKey>
+  </rule>
+  <rule key="ClassCastExceptionWithSubListToArrayListRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hs-set.xml/ClassCastExceptionWithSubListToArrayListRule]]></configKey>
+  </rule>
+  <rule key="ConcurrentExceptionWithModifyOriginSubListRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hs-set.xml/ConcurrentExceptionWithModifyOriginSubListRule]]></configKey>
+  </rule>
+  <rule key="DontModifyInForeachCircleRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hs-set.xml/DontModifyInForeachCircleRule]]></configKey>
+  </rule>
+  <rule key="CollectionInitShouldAssignCapacityRule">
+    <priority>MAJOR</priority>
+    <configKey><![CDATA[rulesets/java/hs-set.xml/CollectionInitShouldAssignCapacityRule]]></configKey>
+  </rule>
+  <rule key="DontUseFloat">
+    <priority>MAJOR</priority>
+    <configKey><![CDATA[rulesets/java/hundsun.xml/DontUseFloat]]></configKey>
+  </rule>
+  <rule key="EnumClassShouldEndWithEnum">
+    <priority>MINOR</priority>
+    <configKey><![CDATA[rulesets/java/hundsun.xml/EnumClassShouldEndWithEnum]]></configKey>
+  </rule>
+  <rule key="CatchExceptionShouldBeHandled">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hundsun.xml/CatchExceptionShouldBeHandled]]></configKey>
+  </rule>
+  <rule key="AvoidModifierInInterfaceMethodRule">
+    <priority>MAJOR</priority>
+    <configKey><![CDATA[rulesets/java/hundsun.xml/AvoidModifierInInterfaceMethodRule]]></configKey>
+  </rule>
+  <rule key="AvoidModifierInInterfaceFieldRule">
+    <priority>MAJOR</priority>
+    <configKey><![CDATA[rulesets/java/hundsun.xml/AvoidModifierInInterfaceFieldRule]]></configKey>
+  </rule>
+  <rule key="EnumConstantShouldBeUpperCase">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hundsun.xml/EnumConstantShouldBeUpperCase]]></configKey>
+  </rule>
+  <rule key="AvoidIsAndGetMethodExsitTogether">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hundsun.xml/AvoidIsAndGetMethodExsitTogether]]></configKey>
+  </rule>
+  <rule key="EqualsAvoidNullRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hundsun.xml/EqualsAvoidNullRule]]></configKey>
+  </rule>
+  <rule key="DontUseTryStatementInCircleRule">
+    <priority>MAJOR</priority>
+    <configKey><![CDATA[rulesets/java/hundsun.xml/DontUseTryStatementInCircleRule]]></configKey>
+  </rule>
+  <rule key="DontDefineVariableAndObjectInCircleRule">
+    <priority>MAJOR</priority>
+    <configKey><![CDATA[rulesets/java/hundsun.xml/DontDefineVariableAndObjectInCircleRule]]></configKey>
+  </rule>
+  <rule key="DontUseObjectVarargsRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hundsun.xml/DontUseObjectVarargsRule]]></configKey>
+  </rule>
+  <rule key="ReservedWordMustExistSpaceRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hundsun.xml/ReservedWordMustExistSpaceRule]]></configKey>
+  </rule>
+  <rule key="MultiParamMustHaveSpaceRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hundsun.xml/MultiParamMustHaveSpaceRule]]></configKey>
+  </rule>
+  <rule key="BetweenSlashAndCommentExistSpaceRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hundsun.xml/BetweenSlashAndCommentExistSpaceRule]]></configKey>
+  </rule>
+  <rule key="SingleLineShouldNotTooLongRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hundsun.xml/SingleLineShouldNotTooLongRule]]></configKey>
+  </rule>
+  <rule key="MethodShouldNotTooLongRule">
+    <priority>MAJOR</priority>
+    <configKey><![CDATA[rulesets/java/hundsun.xml/MethodShouldNotTooLongRule]]></configKey>
+  </rule>
+  <rule key="OverrideEqualsAndHashcodeMethodsRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hundsun.xml/OverrideEqualsAndHashcodeMethodsRule]]></configKey>
+  </rule>
+  <rule key="UseEntrySetTraverseMapRule">
+    <priority>MAJOR</priority>
+    <configKey><![CDATA[rulesets/java/hundsun.xml/UseEntrySetTraverseMapRule]]></configKey>
+  </rule>
+  <rule key="ClassMustHaveDateRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hundsun.xml/ClassMustHaveDateRule]]></configKey>
+  </rule>
+  <rule key="LocalVariableUsePrimitiveTypeRule">
+    <priority>MAJOR</priority>
+    <configKey><![CDATA[rulesets/java/hundsun.xml/LocalVariableUsePrimitiveTypeRule]]></configKey>
+  </rule>
+  <rule key="ServiceLayerNamingRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hundsun.xml/ServiceLayerNamingRule]]></configKey>
+  </rule>
+</rules>
