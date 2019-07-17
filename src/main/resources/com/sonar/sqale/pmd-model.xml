@@ -1,12 +1,12 @@
 <sqale>
   <chc>
-    <key>HS-PMD</key>
-    <name>hs-pmd</name>
+    <key>hs</key>
+    <name>恒生规约</name>
     <chc>
-      <key>HS_PMD</key>
-      <name>hs pmd</name>
+      <key>hs</key>
+      <name>恒生规约</name>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>CommentsMustBeJavadocFormatRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -19,7 +19,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>AbstractMethodOrInterfaceMethodMustUseJavadocRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -32,7 +32,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>ClassMustHaveAuthorRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -45,7 +45,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>EnumConstantsMustHaveCommentRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -58,7 +58,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>AvoidCommentBehindStatementRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -71,7 +71,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>RemoveCommentedCodeRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -84,7 +84,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>ThreadPoolCreationRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -97,7 +97,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>AvoidUseTimerRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -110,7 +110,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>AvoidManuallyCreateThreadRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -123,7 +123,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>ThreadShouldSetNameRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -136,7 +136,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>AvoidCallStaticSimpleDateFormatRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -149,7 +149,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>ThreadLocalShouldRemoveRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -162,7 +162,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>AvoidConcurrentCompetitionRandomRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -175,7 +175,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>CountDownShouldInFinallyRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -188,7 +188,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>UpperEllRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -201,7 +201,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>UndefineMagicConstantRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -214,7 +214,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>MethodReturnWrapperTypeRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -227,7 +227,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>AvoidReturnInFinallyRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -240,7 +240,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>TransactionMustHaveRollbackRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -253,7 +253,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>SwitchStatementRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -266,7 +266,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>NeedBraceRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -279,7 +279,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>AvoidComplexConditionRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -292,7 +292,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>AvoidNegationOperatorRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -305,7 +305,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>ClassNamingShouldBeCamelRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -318,7 +318,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>AbstractClassShouldStartWithAbstractNamingRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -331,7 +331,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>ExceptionClassShouldEndWithExceptionRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -344,7 +344,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>TestClassShouldEndWithTestNamingRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -357,7 +357,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>LowerCamelCaseVariableNamingRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -370,7 +370,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>AvoidStartWithDollarAndUnderLineNamingRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -383,7 +383,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>ConstantFieldShouldBeUpperCaseRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -396,7 +396,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>ServiceOrDaoClassShouldEndWithImplRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -409,7 +409,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>PackageNamingRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -422,7 +422,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>BooleanPropertyShouldNotStartWithIsRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -435,7 +435,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>ArrayNamingShouldHaveBracketRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -448,7 +448,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>WrapperTypeEqualityRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -461,7 +461,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>PojoMustUsePrimitiveFieldRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -474,7 +474,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>PojoNoDefaultValueRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -487,7 +487,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>PojoMustOverrideToStringRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -500,7 +500,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>StringConcatRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -513,7 +513,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>IbatisMethodQueryForListRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -526,7 +526,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>AvoidPatternCompileInMethodRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -539,7 +539,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>AvoidApacheBeanUtilsCopyRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -552,7 +552,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>AvoidNewDateGetTimeRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -565,7 +565,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>AvoidMissUseOfMathRandomRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -578,7 +578,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>UseRightCaseForDateFormatRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -591,7 +591,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>ClassCastExceptionWithToArrayRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -604,7 +604,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>UnsupportedExceptionWithModifyAsListRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -617,7 +617,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>ClassCastExceptionWithSubListToArrayListRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -630,7 +630,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>ConcurrentExceptionWithModifyOriginSubListRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -643,7 +643,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>DontModifyInForeachCircleRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -656,7 +656,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>CollectionInitShouldAssignCapacityRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -669,8 +669,8 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
-        <rule-key>DontUseFloat</rule-key>
+        <rule-repo>hs</rule-repo>
+        <rule-key>DontUseFloatRule</rule-key>
         <prop>
           <key>remediationFunction</key>
           <txt>CONSTANT_ISSUE</txt>
@@ -682,8 +682,8 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
-        <rule-key>EnumClassShouldEndWithEnum</rule-key>
+        <rule-repo>hs</rule-repo>
+        <rule-key>EnumClassShouldEndWithEnumNamingRule</rule-key>
         <prop>
           <key>remediationFunction</key>
           <txt>CONSTANT_ISSUE</txt>
@@ -695,8 +695,8 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
-        <rule-key>CatchExceptionShouldBeHandled</rule-key>
+        <rule-repo>hs</rule-repo>
+        <rule-key>CatchExceptionShouldBeHandledRule</rule-key>
         <prop>
           <key>remediationFunction</key>
           <txt>CONSTANT_ISSUE</txt>
@@ -708,7 +708,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>AvoidModifierInInterfaceMethodRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -721,7 +721,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>AvoidModifierInInterfaceFieldRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -734,8 +734,8 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
-        <rule-key>EnumConstantShouldBeUpperCase</rule-key>
+        <rule-repo>hs</rule-repo>
+        <rule-key>EnumClassConstantShouldBeUpperCaseRule</rule-key>
         <prop>
           <key>remediationFunction</key>
           <txt>CONSTANT_ISSUE</txt>
@@ -747,8 +747,8 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
-        <rule-key>AvoidIsAndGetMethodExsitTogether</rule-key>
+        <rule-repo>hs</rule-repo>
+        <rule-key>AvoidIsAndGetMethodExsitTogetherRule</rule-key>
         <prop>
           <key>remediationFunction</key>
           <txt>CONSTANT_ISSUE</txt>
@@ -760,7 +760,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>EqualsAvoidNullRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -773,7 +773,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>DontUseTryStatementInCircleRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -786,7 +786,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>DontDefineVariableAndObjectInCircleRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -799,7 +799,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>DontUseObjectVarargsRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -812,7 +812,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>ReservedWordMustExistSpaceRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -825,7 +825,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>MultiParamMustHaveSpaceRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -838,7 +838,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>BetweenSlashAndCommentExistSpaceRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -851,7 +851,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>SingleLineShouldNotTooLongRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -864,7 +864,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>MethodShouldNotTooLongRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -877,7 +877,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>OverrideEqualsAndHashcodeMethodsRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -890,7 +890,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>UseEntrySetTraverseMapRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -903,7 +903,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>ClassMustHaveDateRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -916,7 +916,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>LocalVariableUsePrimitiveTypeRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -929,7 +929,7 @@
         </prop>
       </chc>
       <chc>
-        <rule-repo>pmd</rule-repo>
+        <rule-repo>hs</rule-repo>
         <rule-key>ServiceLayerNamingRule</rule-key>
         <prop>
           <key>remediationFunction</key>

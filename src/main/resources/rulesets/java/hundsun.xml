@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+
+<ruleset name="AlibabaJavaComments" xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 http://pmd.sourceforge.net/ruleset_2_0_0.xsd">
+
+
+    <rule name="DontUseFloatRule" message="建议定义字段【%s】类型为BigDecimal"
+        class="com.hundsun.jres.studio.lang.java.rule.hs.DontUseFloatRule">
+        <description>建议浮点数使用BigDecimal类型，而非float和double类型</description>
+        <priority>2</priority>
+
+        <example>
+<![CDATA[
+   
+    public class XxClass implements Serializable {
+        private static final long serialVersionUID = 113323427779853001L;
+        /**
+         * rate float和double类型执行二进制浮点运算并没有提供完全精确的结果，所以不应该被用于精确的结果的场合
+         * 精确场合建议使用BigDecimal(String val)进行替换
+         */
+        private BigDecimal rate;
+        
+    }
+]]>
+        </example>
+    </rule>
+    <rule name="EnumClassShouldEndWithEnumNamingRule" message="建议枚举类【%s】命名以Enum结尾"
+    	language="java"
+        class="com.hundsun.jres.studio.lang.java.rule.hs.EnumClassShouldEndWithEnumNamingRule">
+        <description>建议枚举类的命名以Enum结尾</description>
+        <priority>3</priority>
+    </rule>
+    
+    <rule name="CatchExceptionShouldBeHandledRule" message="捕获到的异常【%s】必须要处理，若不想处理，请抛出"
+    	language="java"
+        class="com.hundsun.jres.studio.lang.java.rule.hs.CatchExceptionShouldBeHandledRule">
+        <description>捕获到的异常必须处理，若不想处理，请将异常抛给调用者</description>
+        <priority>1</priority>
+    </rule>
+    
+     <rule name="AvoidModifierInInterfaceMethodRule" message="建议接口中的方法【%s】不要加修饰符"
+     	language="java"
+        class="com.hundsun.jres.studio.lang.java.rule.hs.AvoidModifierInInterfaceMethodRule">
+        <description>接口中类中的属性和方法不要加任何的修饰符</description>
+        <priority>2</priority>
+    </rule> 
+    
+    <rule name="AvoidModifierInInterfaceFieldRule" message="建议接口中的属性【%s】不要加修饰符"
+     	language="java"
+        class="com.hundsun.jres.studio.lang.java.rule.hs.AvoidModifierInInterfaceFieldRule">
+        <description>接口中类中的属性和方法不要加任何的修饰符</description>
+        <priority>2</priority>
+    </rule> 
+    
+    <rule name="EnumClassConstantShouldBeUpperCaseRule" message="建议枚举常量【%s】全部大写，单词间用下划线隔开"
+        class="com.hundsun.jres.studio.lang.java.rule.hs.EnumClassConstantShouldBeUpperCaseRule">
+        <description>建议枚举常量全部大写，单词间用下划线隔开</description>
+        <priority>3</priority>
+    </rule>
+    
+    
+    <rule name="AvoidIsAndGetMethodExsitTogetherRule" message="禁止在POJO类中，同时存在属性【%s】的is和get方法"
+    	language="java"
+        class="com.hundsun.jres.studio.lang.java.rule.hs.AvoidIsAndGetMethodExsitTogetherRule">
+        <description>禁止在POJO类中同时存在is和get方法</description>
+        <priority>1</priority>
+    </rule>
+      
+    <rule name="EqualsAvoidNullRule" message="【%s】应该作为equals的参数，而不是调用方"
+    	language="java"
+        class="com.hundsun.jres.studio.lang.java.rule.hs.EqualsAvoidNullRule">
+        <description>使用常量或确定有值的对象来调用equals</description>
+        <priority>1</priority>
+    </rule>
+    
+    <rule name="DontUseTryStatementInCircleRule" message="【try catch】操作尽量不要在循环体内处理"
+    	language="java"
+        class="com.hundsun.jres.studio.lang.java.rule.hs.DontUseTryStatementInCircleRule">
+        <description>try - catch 操作尽量移至循环体外处理</description>
+        <priority>2</priority>
+    </rule>
+    
+    <rule name="DontDefineVariableAndObjectInCircleRule" message="尽量不要再循环体内进行对象、变量的定义"
+    	language="java"
+        class="com.hundsun.jres.studio.lang.java.rule.hs.DontDefineVariableAndObjectInCircleRule">
+        <description>尽量不要再循环体内进行对象、变量的定义</description>
+        <priority>2</priority>
+    </rule>
+    
+    <rule name="DontUseObjectVarargsRule" message="可变参数【%s】避免使用Object类型"
+    	language="java"
+        class="com.hundsun.jres.studio.lang.java.rule.hs.DontUseObjectVarargsRule">
+        <description>可变参数避免使用 Object</description>
+        <priority>1</priority>
+    </rule>
+    
+    <rule name="ReservedWordMustExistSpaceRule" message="保留字【%s】与括号之间有且只有一个空格"
+    	language="java"
+        class="com.hundsun.jres.studio.lang.java.rule.hs.ReservedWordMustExistSpaceRule">
+        <description>if/for/while/switch/do等保留字与括号之间都必须加空格</description>
+        <priority>1</priority>
+    </rule>
+    
+    <rule name="MultiParamMustHaveSpaceRule" message="参数【%s】与前面的逗号之间需添加空格"
+    	language="java"
+        class="com.hundsun.jres.studio.lang.java.rule.hs.MultiParamMustHaveSpaceRule">
+        <description>多个参数逗号后边必须加空格</description>
+        <priority>1</priority>
+    </rule>
+    
+    <rule name="BetweenSlashAndCommentExistSpaceRule" message="单行注释的双斜线与注释内容之间必须有且仅有一个空格"
+    	language="java"
+        class="com.hundsun.jres.studio.lang.java.rule.hs.BetweenSlashAndCommentExistSpaceRule">
+        <description>单行注释的双斜线与注释内容之间有且仅有一个空格</description>
+        <priority>1</priority>
+    </rule>
+       
+    <rule name="SingleLineShouldNotTooLongRule" message="单行字符数不超过120个,当前字符数为【%s】"
+    	language="java"
+        class="com.hundsun.jres.studio.lang.java.rule.hs.SingleLineShouldNotTooLongRule">
+        <description>单行字符数限制不超过 120 个，超出需要换行</description>
+        <priority>1</priority>
+    </rule> 
+    
+    <rule name="MethodShouldNotTooLongRule" message="单个方法的总行数不超过120行"
+    	language="java"
+        class="com.hundsun.jres.studio.lang.java.rule.hs.MethodShouldNotTooLongRule">
+        <description>单个方法的总行数不超过120行</description>
+        <priority>2</priority>
+    </rule> 
+    
+    <rule name="OverrideEqualsAndHashcodeMethodsRule" message="类【%s】只要重写equals方法，就必须重写hashCode方法"
+    	language="java"
+        class="com.hundsun.jres.studio.lang.java.rule.hs.OverrideEqualsAndHashcodeMethodsRule">
+        <description>只要重写equals方法，就必须重写hashCode方法</description>
+        <priority>1</priority>
+    </rule>
+    
+    <rule name="UseEntrySetTraverseMapRule" message="遍历集合【%s】时，推荐使用entrySet遍历"
+    	language="java"
+        class="com.hundsun.jres.studio.lang.java.rule.hs.UseEntrySetTraverseMapRule">
+        <description>使用 entrySet 遍历 Map 类集合 KV ，而不是 keySet 方式进行遍历</description>
+        <priority>2</priority>
+    </rule>
+    
+    <rule name="ClassMustHaveDateRule" message="【%s】缺少包含@date的注释信息"
+    	language="java"
+        class="com.hundsun.jres.studio.lang.java.rule.hs.ClassMustHaveDateRule">
+        <description>所有类必须添加创建日期</description>
+        <priority>1</priority>
+    </rule>
+    
+    <rule name="LocalVariableUsePrimitiveTypeRule" message="局部变量【%s】推荐使用基本数据类型"
+    	language="java"
+        class="com.hundsun.jres.studio.lang.java.rule.hs.LocalVariableUsePrimitiveTypeRule">
+        <description>所有局部变量使用基本数据类型</description>
+        <priority>2</priority>
+    </rule>
+    
+    <rule name="ServiceLayerNamingRule" message="Service层接口中的方法命名需要以get、put、post、delete作为前缀"
+    	language="java"
+        class="com.hundsun.jres.studio.lang.java.rule.hs.ServiceLayerNamingRule">
+        <description>Service层方法命名括get、put、post、delete对应查询、修改、增加和删除</description>
+        <priority>3</priority>
+    </rule>
+    
+</ruleset>

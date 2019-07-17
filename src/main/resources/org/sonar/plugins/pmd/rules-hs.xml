@@ -1,5 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
 <rules>
   <rule key="CommentsMustBeJavadocFormatRule">
     <priority>CRITICAL</priority>
@@ -181,9 +179,6 @@
     <priority>MAJOR</priority>
     <configKey><![CDATA[rulesets/java/hs-other.xml/UseRightCaseForDateFormatRule]]></configKey>
   </rule>
-  <rule key="">
-    <priority/>
-  </rule>
   <rule key="ClassCastExceptionWithToArrayRule">
     <priority>CRITICAL</priority>
     <configKey><![CDATA[rulesets/java/hs-set.xml/ClassCastExceptionWithToArrayRule]]></configKey>
@@ -208,17 +203,17 @@
     <priority>MAJOR</priority>
     <configKey><![CDATA[rulesets/java/hs-set.xml/CollectionInitShouldAssignCapacityRule]]></configKey>
   </rule>
-  <rule key="DontUseFloat">
+  <rule key="DontUseFloatRule">
     <priority>MAJOR</priority>
-    <configKey><![CDATA[rulesets/java/hundsun.xml/DontUseFloat]]></configKey>
+    <configKey><![CDATA[rulesets/java/hundsun.xml/DontUseFloatRule]]></configKey>
   </rule>
-  <rule key="EnumClassShouldEndWithEnum">
+  <rule key="EnumClassShouldEndWithEnumNamingRule">
     <priority>MINOR</priority>
-    <configKey><![CDATA[rulesets/java/hundsun.xml/EnumClassShouldEndWithEnum]]></configKey>
+    <configKey><![CDATA[rulesets/java/hundsun.xml/EnumClassShouldEndWithEnumNamingRule]]></configKey>
   </rule>
-  <rule key="CatchExceptionShouldBeHandled">
+  <rule key="CatchExceptionShouldBeHandledRule">
     <priority>CRITICAL</priority>
-    <configKey><![CDATA[rulesets/java/hundsun.xml/CatchExceptionShouldBeHandled]]></configKey>
+    <configKey><![CDATA[rulesets/java/hundsun.xml/CatchExceptionShouldBeHandledRule]]></configKey>
   </rule>
   <rule key="AvoidModifierInInterfaceMethodRule">
     <priority>MAJOR</priority>
@@ -228,13 +223,13 @@
     <priority>MAJOR</priority>
     <configKey><![CDATA[rulesets/java/hundsun.xml/AvoidModifierInInterfaceFieldRule]]></configKey>
   </rule>
-  <rule key="EnumConstantShouldBeUpperCase">
+  <rule key="EnumClassConstantShouldBeUpperCaseRule">
     <priority>CRITICAL</priority>
-    <configKey><![CDATA[rulesets/java/hundsun.xml/EnumConstantShouldBeUpperCase]]></configKey>
+    <configKey><![CDATA[rulesets/java/hundsun.xml/EnumClassConstantShouldBeUpperCaseRule]]></configKey>
   </rule>
-  <rule key="AvoidIsAndGetMethodExsitTogether">
+  <rule key="AvoidIsAndGetMethodExsitTogetherRule">
     <priority>CRITICAL</priority>
-    <configKey><![CDATA[rulesets/java/hundsun.xml/AvoidIsAndGetMethodExsitTogether]]></configKey>
+    <configKey><![CDATA[rulesets/java/hundsun.xml/AvoidIsAndGetMethodExsitTogetherRule]]></configKey>
   </rule>
   <rule key="EqualsAvoidNullRule">
     <priority>CRITICAL</priority>

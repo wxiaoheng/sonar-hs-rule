@@ -1,0 +1,13 @@
+<p>Look for qualified this usages in the same class.</p>
+<p>Examples:</p>
+<pre>
+	public class XxClass implements Serializable {
+        private static final long serialVersionUID = 113323427779853001L;
+        /**
+         * rate float和double类型执行二进制浮点运算并没有提供完全精确的结果，所以不应该被用于精确的结果的场合
+         * 精确场合建议使用BigDecimal(String val)进行替换
+         */
+        private BigDecimal rate;
+        
+    }
+</pre>

@@ -25,7 +25,7 @@ import org.sonar.api.config.PropertyDefinition;
 
 import java.util.List;
 
-public class PmdPlugin extends SonarPlugin {
+public class HsPmdPlugin extends SonarPlugin {
 
   @Override
   public List getExtensions() {
