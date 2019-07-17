@@ -20,7 +20,7 @@
     <configKey><![CDATA[rulesets/java/hs-comment.xml/AvoidCommentBehindStatementRule]]></configKey>
   </rule>
   <rule key="RemoveCommentedCodeRule">
-    <priority>MINOR</priority>
+    <priority>MAJOR</priority>
     <configKey><![CDATA[rulesets/java/hs-comment.xml/RemoveCommentedCodeRule]]></configKey>
   </rule>
   <rule key="ThreadPoolCreationRule">
@@ -52,7 +52,7 @@
     <configKey><![CDATA[rulesets/java/hs-concurrent.xml/AvoidConcurrentCompetitionRandomRule]]></configKey>
   </rule>
   <rule key="CountDownShouldInFinallyRule">
-    <priority>MINOR</priority>
+    <priority>MAJOR</priority>
     <configKey><![CDATA[rulesets/java/hs-concurrent.xml/CountDownShouldInFinallyRule]]></configKey>
   </rule>
   <rule key="UpperEllRule">
@@ -64,17 +64,17 @@
     <configKey><![CDATA[rulesets/java/hs-constant.xml/UndefineMagicConstantRule]]></configKey>
   </rule>
   <rule key="MethodReturnWrapperTypeRule">
-    <priority>MINOR</priority>
+    <priority>MAJOR</priority>
     <configKey><![CDATA[rulesets/java/hs-exception.xml/MethodReturnWrapperTypeRule]]></configKey>
   </rule>
   <rule key="AvoidReturnInFinallyRule">
     <priority>CRITICAL</priority>
     <configKey><![CDATA[rulesets/java/hs-exception.xml/AvoidReturnInFinallyRule]]></configKey>
   </rule>
-  <rule key="TransactionMustHaveRollbackRule">
+  <!-- rule key="TransactionMustHaveRollbackRule">
     <priority>CRITICAL</priority>
     <configKey><![CDATA[rulesets/java/hs-exception.xml/TransactionMustHaveRollbackRule]]></configKey>
-  </rule>
+  </rule-->
   <rule key="SwitchStatementRule">
     <priority>CRITICAL</priority>
     <configKey><![CDATA[rulesets/java/hs-flowcontrol.xml/SwitchStatementRule]]></configKey>
@@ -144,7 +144,7 @@
     <configKey><![CDATA[rulesets/java/hs-oop.xml/PojoMustUsePrimitiveFieldRule]]></configKey>
   </rule>
   <rule key="PojoNoDefaultValueRule">
-    <priority>CRITICAL</priority>
+    <priority>MINOR</priority>
     <configKey><![CDATA[rulesets/java/hs-oop.xml/PojoNoDefaultValueRule]]></configKey>
   </rule>
   <rule key="PojoMustOverrideToStringRule">
@@ -155,18 +155,18 @@
     <priority>MAJOR</priority>
     <configKey><![CDATA[rulesets/java/hs-oop.xml/StringConcatRule]]></configKey>
   </rule>
-  <rule key="IbatisMethodQueryForListRule">
+  <!--rule key="IbatisMethodQueryForListRule">
     <priority>MINOR</priority>
     <configKey><![CDATA[rulesets/java/hs-orm.xml/IbatisMethodQueryForListRule]]></configKey>
-  </rule>
+  </rule-->
   <rule key="AvoidPatternCompileInMethodRule">
     <priority>CRITICAL</priority>
     <configKey><![CDATA[rulesets/java/hs-other.xml/AvoidPatternCompileInMethodRule]]></configKey>
   </rule>
-  <rule key="AvoidApacheBeanUtilsCopyRule">
+  <!-- rule key="AvoidApacheBeanUtilsCopyRule">
     <priority>CRITICAL</priority>
     <configKey><![CDATA[rulesets/java/hs-other.xml/AvoidApacheBeanUtilsCopyRule]]></configKey>
-  </rule>
+  </rule-->
   <rule key="AvoidNewDateGetTimeRule">
     <priority>CRITICAL</priority>
     <configKey><![CDATA[rulesets/java/hs-other.xml/AvoidNewDateGetTimeRule]]></configKey>
@@ -175,10 +175,10 @@
     <priority>CRITICAL</priority>
     <configKey><![CDATA[rulesets/java/hs-other.xml/AvoidMissUseOfMathRandomRule]]></configKey>
   </rule>
-  <rule key="UseRightCaseForDateFormatRule">
+  <!-- rule key="UseRightCaseForDateFormatRule">
     <priority>MAJOR</priority>
     <configKey><![CDATA[rulesets/java/hs-other.xml/UseRightCaseForDateFormatRule]]></configKey>
-  </rule>
+  </rule-->
   <rule key="ClassCastExceptionWithToArrayRule">
     <priority>CRITICAL</priority>
     <configKey><![CDATA[rulesets/java/hs-set.xml/ClassCastExceptionWithToArrayRule]]></configKey>
@@ -224,7 +224,7 @@
     <configKey><![CDATA[rulesets/java/hundsun.xml/AvoidModifierInInterfaceFieldRule]]></configKey>
   </rule>
   <rule key="EnumClassConstantShouldBeUpperCaseRule">
-    <priority>CRITICAL</priority>
+    <priority>MINOR</priority>
     <configKey><![CDATA[rulesets/java/hundsun.xml/EnumClassConstantShouldBeUpperCaseRule]]></configKey>
   </rule>
   <rule key="AvoidIsAndGetMethodExsitTogetherRule">
@@ -284,7 +284,7 @@
     <configKey><![CDATA[rulesets/java/hundsun.xml/LocalVariableUsePrimitiveTypeRule]]></configKey>
   </rule>
   <rule key="ServiceLayerNamingRule">
-    <priority>CRITICAL</priority>
+    <priority>MINOR</priority>
     <configKey><![CDATA[rulesets/java/hundsun.xml/ServiceLayerNamingRule]]></configKey>
   </rule>
 </rules>

@@ -239,7 +239,7 @@
           <txt>min</txt>
         </prop>
       </chc>
-      <chc>
+      <!-- chc>
         <rule-repo>hs</rule-repo>
         <rule-key>TransactionMustHaveRollbackRule</rule-key>
         <prop>
@@ -251,7 +251,7 @@
           <val>2</val>
           <txt>min</txt>
         </prop>
-      </chc>
+      </chc-->
       <chc>
         <rule-repo>hs</rule-repo>
         <rule-key>SwitchStatementRule</rule-key>
@@ -512,7 +512,7 @@
           <txt>min</txt>
         </prop>
       </chc>
-      <chc>
+      <!-- chc>
         <rule-repo>hs</rule-repo>
         <rule-key>IbatisMethodQueryForListRule</rule-key>
         <prop>
@@ -524,7 +524,7 @@
           <val>2</val>
           <txt>min</txt>
         </prop>
-      </chc>
+      </chc-->
       <chc>
         <rule-repo>hs</rule-repo>
         <rule-key>AvoidPatternCompileInMethodRule</rule-key>
@@ -577,7 +577,7 @@
           <txt>min</txt>
         </prop>
       </chc>
-      <chc>
+      <!-- chc>
         <rule-repo>hs</rule-repo>
         <rule-key>UseRightCaseForDateFormatRule</rule-key>
         <prop>
@@ -589,7 +589,7 @@
           <val>2</val>
           <txt>min</txt>
         </prop>
-      </chc>
+      </chc-->
       <chc>
         <rule-repo>hs</rule-repo>
         <rule-key>ClassCastExceptionWithToArrayRule</rule-key>
