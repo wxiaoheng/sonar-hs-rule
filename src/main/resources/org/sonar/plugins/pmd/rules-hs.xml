@@ -256,11 +256,11 @@
     <configKey><![CDATA[rulesets/java/hundsun.xml/MultiParamMustHaveSpaceRule]]></configKey>
   </rule>
   <rule key="BetweenSlashAndCommentExistSpaceRule">
-    <priority>CRITICAL</priority>
+    <priority>MAJOR</priority>
     <configKey><![CDATA[rulesets/java/hundsun.xml/BetweenSlashAndCommentExistSpaceRule]]></configKey>
   </rule>
   <rule key="SingleLineShouldNotTooLongRule">
-    <priority>CRITICAL</priority>
+    <priority>MAJOR</priority>
     <configKey><![CDATA[rulesets/java/hundsun.xml/SingleLineShouldNotTooLongRule]]></configKey>
   </rule>
   <rule key="MethodShouldNotTooLongRule">

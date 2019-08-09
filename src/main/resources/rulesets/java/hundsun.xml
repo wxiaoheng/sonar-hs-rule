@@ -113,14 +113,14 @@
     	language="java"
         class="com.hundsun.jres.studio.lang.java.rule.hs.BetweenSlashAndCommentExistSpaceRule">
         <description>单行注释的双斜线与注释内容之间有且仅有一个空格</description>
-        <priority>1</priority>
+        <priority>2</priority>
     </rule>
        
     <rule name="SingleLineShouldNotTooLongRule" message="单行字符数不超过120个,当前字符数为【%s】"
     	language="java"
         class="com.hundsun.jres.studio.lang.java.rule.hs.SingleLineShouldNotTooLongRule">
         <description>单行字符数限制不超过 120 个，超出需要换行</description>
-        <priority>1</priority>
+        <priority>2</priority>
     </rule> 
     
     <rule name="MethodShouldNotTooLongRule" message="单个方法的总行数不超过120行"
