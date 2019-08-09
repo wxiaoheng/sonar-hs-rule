@@ -250,14 +250,14 @@
   </build>
 
   <distributionManagement>
-    <snapshotRepository>
-      <id>ossrh</id>
-      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-    </snapshotRepository>
-    <repository>
-      <id>ossrh</id>
-      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-    </repository>
-  </distributionManagement>
+		<repository>
+			<id>hundsun_rd_hosted_release</id>
+			<url>http://repos.hundsun.com:6060/nexus/content/repositories/hundsun_rd_hosted_release</url>
+		</repository>
+		<snapshotRepository>
+			<id>hundsun_rd_hosted_snapshot</id>
+			<url>http://repos.hundsun.com:6060/nexus/content/repositories/hundsun_rd_hosted_snapshot</url>
+		</snapshotRepository>
+	</distributionManagement>
 
 </project>
