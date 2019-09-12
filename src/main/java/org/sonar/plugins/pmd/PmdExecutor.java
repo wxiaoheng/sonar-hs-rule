@@ -40,11 +40,15 @@ import org.sonar.plugins.java.Java;
 import org.sonar.plugins.java.api.JavaResourceLocator;
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLClassLoader;
 import java.util.Collection;
 import java.util.List;
+import java.util.Map.Entry;
+import java.util.Properties;
 
 public class PmdExecutor implements BatchExtension {
   private final FileSystem fs;
@@ -84,6 +88,24 @@ public class PmdExecutor implements BatchExtension {
     Report report = new Report();
 
     RuleContext context = new RuleContext();
+    File prop = getPropertyFile(fs.baseDir());
+    if(prop != null){
+    	Properties pp = new Properties();
+    	FileInputStream fis = null;
+    	try {
+			fis = new FileInputStream(prop);
+			pp.load(fis);
+			for(Entry<Object, Object> entry : pp.entrySet()){
+				context.setAttribute(entry.getKey().toString(), entry.getValue());
+			}
+		} catch (IOException e) {
+		} finally {
+			try {
+				fis.close();
+			} catch (IOException e) {
+			}
+		}
+    }
     context.setReport(report);
 
     PmdTemplate pmdFactory = createPmdTemplate(classLoader);
@@ -93,6 +115,24 @@ public class PmdExecutor implements BatchExtension {
     pmdConfiguration.dumpXmlReport(report);
 
     return report;
+  }
+  
+  private File getPropertyFile(File dir){
+	  boolean pom = false;
+	  if(dir == null){
+		  return null;
+	  }
+	  for(File child : dir.listFiles()){
+		  if(child.isFile() && child.getName().equalsIgnoreCase("hepRule.cfg")){
+			  return child;
+		  }else if(child.isFile() && child.getName().equalsIgnoreCase("pom.xml")){
+			  pom = true;
+		  }
+	  }
+	  if(pom){
+		  return getPropertyFile(dir.getParentFile());
+	  }
+	  return null;
   }
 
   public Iterable<File> javaFiles(Type fileType) {
