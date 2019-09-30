@@ -18,7 +18,7 @@
           since="1.4"
           message="java.naming.AbstractClassShouldStartWithAbstractNamingRule.rule.msg"
           class="com.hundsun.jres.studio.lang.java.rule.naming.AbstractClassShouldStartWithAbstractNamingRule">
-        <priority>1</priority>
+        <priority>2</priority>
         <example>
             <![CDATA[
     abstract class BaseControllerDemo{

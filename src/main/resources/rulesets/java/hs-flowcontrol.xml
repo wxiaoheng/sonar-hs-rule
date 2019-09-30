@@ -69,7 +69,7 @@ Positive example:
           message="java.flowcontrol.AvoidNegationOperatorRule.rule.msg"
           class="com.hundsun.jres.studio.lang.java.rule.flowcontrol.AvoidNegationOperatorRule">
         <description>java.flowcontrol.AvoidNegationOperatorRule.rule.desc</description>
-        <priority>2</priority>
+        <priority>3</priority>
 
         <example>
             <![CDATA[

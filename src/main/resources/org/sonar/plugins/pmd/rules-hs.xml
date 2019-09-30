@@ -16,7 +16,7 @@
     <configKey><![CDATA[rulesets/java/hs-comment.xml/EnumConstantsMustHaveCommentRule]]></configKey>
   </rule>
   <rule key="AvoidCommentBehindStatementRule">
-    <priority>CRITICAL</priority>
+    <priority>MAJOR</priority>
     <configKey><![CDATA[rulesets/java/hs-comment.xml/AvoidCommentBehindStatementRule]]></configKey>
   </rule>
   <rule key="RemoveCommentedCodeRule">
@@ -88,7 +88,7 @@
     <configKey><![CDATA[rulesets/java/hs-flowcontrol.xml/AvoidComplexConditionRule]]></configKey>
   </rule>
   <rule key="AvoidNegationOperatorRule">
-    <priority>MAJOR</priority>
+    <priority>MINOR</priority>
     <configKey><![CDATA[rulesets/java/hs-flowcontrol.xml/AvoidNegationOperatorRule]]></configKey>
   </rule>
   <rule key="ClassNamingShouldBeCamelRule">
@@ -96,7 +96,7 @@
     <configKey><![CDATA[rulesets/java/hs-naming.xml/ClassNamingShouldBeCamelRule]]></configKey>
   </rule>
   <rule key="AbstractClassShouldStartWithAbstractNamingRule">
-    <priority>CRITICAL</priority>
+    <priority>MAJOR</priority>
     <configKey><![CDATA[rulesets/java/hs-naming.xml/AbstractClassShouldStartWithAbstractNamingRule]]></configKey>
   </rule>
   <rule key="ExceptionClassShouldEndWithExceptionRule">
