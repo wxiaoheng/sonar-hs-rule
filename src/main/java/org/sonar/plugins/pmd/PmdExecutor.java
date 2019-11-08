@@ -45,6 +45,7 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLClassLoader;
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 import java.util.Map.Entry;
@@ -88,7 +89,7 @@ public class PmdExecutor implements BatchExtension {
     Report report = new Report();
 
     RuleContext context = new RuleContext();
-    File prop = getPropertyFile(fs.baseDir());
+    File prop = getPropertyFile(fs.baseDir(), false);
     if(prop != null){
     	Properties pp = new Properties();
     	FileInputStream fis = null;
@@ -117,20 +118,27 @@ public class PmdExecutor implements BatchExtension {
     return report;
   }
   
-  private File getPropertyFile(File dir){
-	  boolean pom = false;
-	  if(dir == null){
+  private File getPropertyFile(File dir, boolean pomFind){
+	  if(dir == null || pomFind){
 		  return null;
 	  }
+	  List<File> folders = new ArrayList<File>();
 	  for(File child : dir.listFiles()){
 		  if(child.isFile() && child.getName().equalsIgnoreCase("hepRule.cfg")){
 			  return child;
 		  }else if(child.isFile() && child.getName().equalsIgnoreCase("pom.xml")){
-			  pom = true;
+			  pomFind = true;
+		  }else if(child.isDirectory()){
+			  folders.add(child);
 		  }
 	  }
-	  if(pom){
-		  return getPropertyFile(dir.getParentFile());
+	  if(!pomFind){
+		  for(File child : folders){
+			  File file = getPropertyFile(child, pomFind);
+			  if(file != null){
+				  return file;
+			  }
+		  }
 	  }
 	  return null;
   }
@@ -198,5 +206,4 @@ public class PmdExecutor implements BatchExtension {
     String javaVersion = settings.getString(PmdConstants.JAVA_SOURCE_VERSION);
     return javaVersion != null ? javaVersion : PmdConstants.JAVA_SOURCE_VERSION_DEFAULT_VALUE;
   }
-
 }
