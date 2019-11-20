@@ -84,13 +84,33 @@ public class PmdExecutor implements BatchExtension {
       profiler.stop();
     }
   }
+  
+  private File findParentProperty(File file){
+	  boolean pomFind = false;
+	  for(File child : file.listFiles()){
+		  if(child.isFile() && child.getName().equalsIgnoreCase("hepRule.cfg")){
+			  return child;
+		  }else if(child.isFile() && child.getName().equalsIgnoreCase("pom.xml")){
+			  pomFind = true;
+		  }
+	  }
+	  if (pomFind){
+		  return findParentProperty(file.getParentFile());
+	  }
+	  return null;
+  }
 
   private Report executePmd(URLClassLoader classLoader) {
     Report report = new Report();
 
     RuleContext context = new RuleContext();
     File prop = getPropertyFile(fs.baseDir(), false);
+    if (prop == null){
+    	File parent = fs.baseDir().getParentFile();
+    	prop = findParentProperty(parent);
+    }
     if(prop != null){
+    	System.out.println("配置文件：" + prop.getAbsolutePath());
     	Properties pp = new Properties();
     	FileInputStream fis = null;
     	try {

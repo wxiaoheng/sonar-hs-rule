@@ -10,7 +10,7 @@
 
   <groupId>com.hundsun.jres.studio</groupId>
   <artifactId>sonar-hs-rule-plugin</artifactId>
-  <version>1.0.7</version>
+  <version>1.0.8</version>
   <packaging>sonar-plugin</packaging>
 
   <name>SonarQube PMD Plugin</name>
@@ -146,7 +146,7 @@
 	 <dependency>
       <groupId>com.hundsun.jres.studio</groupId>
       <artifactId>hep-rule-java</artifactId>
-      <version>1.0.7</version>
+      <version>1.0.8</version>
     </dependency>
 
     <dependency>
