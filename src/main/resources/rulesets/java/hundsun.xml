@@ -66,7 +66,7 @@
         <description>禁止在POJO类中同时存在is和get方法</description>
         <priority>1</priority>
     </rule>
-      
+         
     <rule name="EqualsAvoidNullRule" message="【%s】应该作为equals的参数，而不是调用方"
     	language="java"
         class="com.hundsun.jres.studio.lang.java.rule.oop.EqualsAvoidNullRule">
@@ -109,7 +109,7 @@
         <priority>1</priority>
     </rule>
     
-    <rule name="BetweenSlashAndCommentExistSpaceRule" message="单行注释的双斜线与注释内容之间必须有且仅有一个空格"
+    <rule name="BetweenSlashAndCommentExistSpaceRule" message="单行注释的双斜线与注释内容之间有且仅有一个空格"
     	language="java"
         class="com.hundsun.jres.studio.lang.java.rule.hs.BetweenSlashAndCommentExistSpaceRule">
         <description>单行注释的双斜线与注释内容之间有且仅有一个空格</description>
@@ -123,10 +123,10 @@
         <priority>2</priority>
     </rule> 
     
-    <rule name="MethodShouldNotTooLongRule" message="单个方法的总行数不超过120行"
+    <rule name="MethodShouldNotTooLongRule" message="单个方法的总行数不超过【%d】行"
     	language="java"
         class="com.hundsun.jres.studio.lang.java.rule.hs.MethodShouldNotTooLongRule">
-        <description>单个方法的总行数不超过120行</description>
+        <description>单个方法的总行数过长</description>
         <priority>2</priority>
     </rule> 
     

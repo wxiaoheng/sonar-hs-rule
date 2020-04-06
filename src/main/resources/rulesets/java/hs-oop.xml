@@ -20,7 +20,22 @@
     }
 			]]>
         </example>
-    </rule>-->
+    </rule-->
+    
+    <rule name="ServiceMethodFieldsShouldPackageTypeRule"
+          language="java"
+          message="java.oop.ServiceMethodFieldsShouldPackageTypeRule.rule.msg"
+          class="com.hundsun.jres.studio.lang.java.rule.oop.ServiceMethodFieldsShouldPackageTypeRule">
+        <priority>1</priority>
+
+        <example>
+            <![CDATA[
+    public Boolean f(Boolean b){
+        return b;
+    }
+			]]>
+        </example>
+    </rule>
 
     <rule name="WrapperTypeEqualityRule"
           language="java"
@@ -61,7 +76,7 @@
           language="java"
           message="java.oop.PojoNoDefaultValueRule.rule.msg"
           class="com.hundsun.jres.studio.lang.java.rule.oop.PojoNoDefaultValueRule">
-        <priority>3</priority>
+        <priority>2</priority>
 
         <example>
             <![CDATA[

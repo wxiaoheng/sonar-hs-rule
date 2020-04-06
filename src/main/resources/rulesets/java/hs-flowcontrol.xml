@@ -37,6 +37,13 @@
 			]]>
         </example>
     </rule>
+    
+    <rule name="AvoidDeeplyNestedIfStmtsRule"
+          language="java"
+          message="java.flowcontrol.AvoidDeeplyNestedIfStmtsRule.rule.msg"
+          class="com.hundsun.jres.studio.lang.java.rule.flowcontrol.AvoidDeeplyNestedIfStmtsRule">
+        <priority>1</priority>
+    </rule>
 
     <rule name="AvoidComplexConditionRule"
           language="java"

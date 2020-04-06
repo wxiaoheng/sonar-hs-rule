@@ -47,6 +47,10 @@
     <priority>CRITICAL</priority>
     <configKey><![CDATA[rulesets/java/hs-concurrent.xml/ThreadLocalShouldRemoveRule]]></configKey>
   </rule>
+  <rule key="ThreadLocalShouldStaticRule">
+    <priority>MAJOR</priority>
+    <configKey><![CDATA[rulesets/java/hs-concurrent.xml/ThreadLocalShouldStaticRule]]></configKey>
+  </rule>
   <rule key="AvoidConcurrentCompetitionRandomRule">
     <priority>MINOR</priority>
     <configKey><![CDATA[rulesets/java/hs-concurrent.xml/AvoidConcurrentCompetitionRandomRule]]></configKey>
@@ -85,6 +89,10 @@
   </rule>
   <rule key="AvoidComplexConditionRule">
     <priority>MAJOR</priority>
+    <configKey><![CDATA[rulesets/java/hs-flowcontrol.xml/AvoidComplexConditionRule]]></configKey>
+  </rule>
+  <rule key="AvoidDeeplyNestedIfStmtsRule">
+    <priority>CRITICAL</priority>
     <configKey><![CDATA[rulesets/java/hs-flowcontrol.xml/AvoidComplexConditionRule]]></configKey>
   </rule>
   <rule key="AvoidNegationOperatorRule">
@@ -144,7 +152,7 @@
     <configKey><![CDATA[rulesets/java/hs-oop.xml/PojoMustUsePrimitiveFieldRule]]></configKey>
   </rule>
   <rule key="PojoNoDefaultValueRule">
-    <priority>MINOR</priority>
+    <priority>MAJOR</priority>
     <configKey><![CDATA[rulesets/java/hs-oop.xml/PojoNoDefaultValueRule]]></configKey>
   </rule>
   <rule key="PojoMustOverrideToStringRule">
@@ -234,6 +242,10 @@
   <rule key="EqualsAvoidNullRule">
     <priority>CRITICAL</priority>
     <configKey><![CDATA[rulesets/java/hundsun.xml/EqualsAvoidNullRule]]></configKey>
+  </rule>
+  <rule key="ServiceMethodFieldsShouldPackageTypeRule">
+    <priority>CRITICAL</priority>
+    <configKey><![CDATA[rulesets/java/hs-oop.xml/ServiceMethodFieldsShouldPackageTypeRule]]></configKey>
   </rule>
   <rule key="DontUseTryStatementInCircleRule">
     <priority>MAJOR</priority>

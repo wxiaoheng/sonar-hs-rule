@@ -168,6 +168,15 @@ Positive example 3：
         <priority>1</priority>
     </rule>
 
+<rule name="ThreadLocalShouldStaticRule"
+          language="java"
+          since="1.6"
+          message="java.concurrent.ThreadLocalShouldStaticRule.rule.msg"
+          dfa="true"
+          class="com.hundsun.jres.studio.lang.java.rule.concurrent.ThreadLocalShouldStaticRule">
+        <priority>2</priority>
+    </rule>
+
     <rule name="ThreadLocalShouldRemoveRule"
           language="java"
           since="1.6"

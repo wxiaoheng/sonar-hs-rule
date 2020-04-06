@@ -150,6 +150,19 @@
       </chc>
       <chc>
         <rule-repo>hs</rule-repo>
+        <rule-key>ThreadLocalShouldStaticRule</rule-key>
+        <prop>
+          <key>remediationFunction</key>
+          <txt>CONSTANT_ISSUE</txt>
+        </prop>
+        <prop>
+          <key>offset</key>
+          <val>2</val>
+          <txt>min</txt>
+        </prop>
+      </chc>
+      <chc>
+        <rule-repo>hs</rule-repo>
         <rule-key>ThreadLocalShouldRemoveRule</rule-key>
         <prop>
           <key>remediationFunction</key>
@@ -281,6 +294,19 @@
       <chc>
         <rule-repo>hs</rule-repo>
         <rule-key>AvoidComplexConditionRule</rule-key>
+        <prop>
+          <key>remediationFunction</key>
+          <txt>CONSTANT_ISSUE</txt>
+        </prop>
+        <prop>
+          <key>offset</key>
+          <val>2</val>
+          <txt>min</txt>
+        </prop>
+      </chc>
+      <chc>
+        <rule-repo>hs</rule-repo>
+        <rule-key>AvoidDeeplyNestedIfStmtsRule</rule-key>
         <prop>
           <key>remediationFunction</key>
           <txt>CONSTANT_ISSUE</txt>
@@ -762,6 +788,19 @@
       <chc>
         <rule-repo>hs</rule-repo>
         <rule-key>EqualsAvoidNullRule</rule-key>
+        <prop>
+          <key>remediationFunction</key>
+          <txt>CONSTANT_ISSUE</txt>
+        </prop>
+        <prop>
+          <key>offset</key>
+          <val>2</val>
+          <txt>min</txt>
+        </prop>
+      </chc>
+      <chc>
+        <rule-repo>hs</rule-repo>
+        <rule-key>ServiceMethodFieldsShouldPackageTypeRule</rule-key>
         <prop>
           <key>remediationFunction</key>
           <txt>CONSTANT_ISSUE</txt>
