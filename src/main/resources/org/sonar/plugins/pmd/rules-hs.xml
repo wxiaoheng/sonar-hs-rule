@@ -93,7 +93,7 @@
   </rule>
   <rule key="AvoidDeeplyNestedIfStmtsRule">
     <priority>CRITICAL</priority>
-    <configKey><![CDATA[rulesets/java/hs-flowcontrol.xml/AvoidComplexConditionRule]]></configKey>
+    <configKey><![CDATA[rulesets/java/hs-flowcontrol.xml/AvoidDeeplyNestedIfStmtsRule]]></configKey>
   </rule>
   <rule key="AvoidNegationOperatorRule">
     <priority>MINOR</priority>
