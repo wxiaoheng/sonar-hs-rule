@@ -4,11 +4,12 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 http://pmd.sourceforge.net/ruleset_2_0_0.xsd">
 
-    <!--  rule name="EqualsAvoidNullRule"
+    <rule name="EqualsAvoidNullRule"
           language="java"
           message="java.oop.EqualsAvoidNullRule.rule.msg"
           class="com.hundsun.jres.studio.lang.java.rule.oop.EqualsAvoidNullRule">
         <priority>1</priority>
+        <description>java.oop.EqualsAvoidNullRule.rule.msg</description>
 
         <example>
             <![CDATA[
@@ -20,14 +21,14 @@
     }
 			]]>
         </example>
-    </rule-->
+    </rule>
     
     <rule name="ServiceMethodFieldsShouldPackageTypeRule"
           language="java"
           message="java.oop.ServiceMethodFieldsShouldPackageTypeRule.rule.msg"
           class="com.hundsun.jres.studio.lang.java.rule.oop.ServiceMethodFieldsShouldPackageTypeRule">
         <priority>1</priority>
-
+		<description>java.oop.ServiceMethodFieldsShouldPackageTypeRule.rule.msg</description>
         <example>
             <![CDATA[
     public Boolean f(Boolean b){
@@ -77,7 +78,7 @@
           message="java.oop.PojoNoDefaultValueRule.rule.msg"
           class="com.hundsun.jres.studio.lang.java.rule.oop.PojoNoDefaultValueRule">
         <priority>2</priority>
-
+		<description>java.oop.PojoNoDefaultValueRule.rule.msg</description>
         <example>
             <![CDATA[
     public class DemoDO {

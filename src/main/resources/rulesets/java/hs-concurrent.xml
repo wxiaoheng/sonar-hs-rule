@@ -59,6 +59,7 @@ Positive example 3：
           message="java.concurrent.AvoidUseTimerRule.rule.msg"
           class="com.hundsun.jres.studio.lang.java.rule.concurrent.AvoidUseTimerRule">
         <priority>1</priority>
+        <description>java.concurrent.AvoidUseTimerRule.rule.msg</description>
         <example>
             <![CDATA[
     //org.apache.commons.lang3.concurrent.BasicThreadFactory
@@ -101,6 +102,7 @@ Positive example 3：
           dfa="true"
           class="com.hundsun.jres.studio.lang.java.rule.concurrent.ThreadShouldSetNameRule">
         <priority>1</priority>
+        <description>java.concurrent.ThreadShouldSetNameRule.rule.msg</description>
         <example>
             <![CDATA[
     ThreadFactory namedThreadFactory = new ThreadFactoryBuilder()
@@ -175,6 +177,7 @@ Positive example 3：
           dfa="true"
           class="com.hundsun.jres.studio.lang.java.rule.concurrent.ThreadLocalShouldStaticRule">
         <priority>2</priority>
+        <description>java.concurrent.ThreadLocalShouldStaticRule.rule.msg</description>
     </rule>
 
     <rule name="ThreadLocalShouldRemoveRule"
@@ -184,6 +187,7 @@ Positive example 3：
           dfa="true"
           class="com.hundsun.jres.studio.lang.java.rule.concurrent.ThreadLocalShouldRemoveRule">
         <priority>1</priority>
+        <description>java.concurrent.ThreadLocalShouldRemoveRule.rule.msg</description>
         <example>
             <![CDATA[
     /**
@@ -234,6 +238,7 @@ Positive example 3：
           dfa="true"
           class="com.hundsun.jres.studio.lang.java.rule.concurrent.AvoidConcurrentCompetitionRandomRule">
         <priority>3</priority>
+        <description>java.concurrent.AvoidConcurrentCompetitionRandomRule.rule.msg</description>
         <example>
             <![CDATA[
 Positive example 1：

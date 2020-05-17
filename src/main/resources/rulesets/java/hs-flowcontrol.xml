@@ -9,7 +9,7 @@
           message="java.flowcontrol.SwitchStatementRule.rule.msg"
           class="com.hundsun.jres.studio.lang.java.rule.flowcontrol.SwitchStatementRule">
         <priority>1</priority>
-
+		<description>java.flowcontrol.SwitchStatementRule.rule.msg</description>
         <example>
             <![CDATA[
     switch (x) {
@@ -28,7 +28,7 @@
           message="java.flowcontrol.NeedBraceRule.rule.msg"
           class="com.hundsun.jres.studio.lang.java.rule.flowcontrol.NeedBraceRule">
         <priority>1</priority>
-
+		<description>java.flowcontrol.NeedBraceRule.rule.msg</description>
         <example>
             <![CDATA[
     if (flag) {
@@ -43,6 +43,7 @@
           message="java.flowcontrol.AvoidDeeplyNestedIfStmtsRule.rule.msg"
           class="com.hundsun.jres.studio.lang.java.rule.flowcontrol.AvoidDeeplyNestedIfStmtsRule">
         <priority>1</priority>
+        <description>java.flowcontrol.AvoidDeeplyNestedIfStmtsRule.rule.msg.desc</description>
     </rule>
 
     <rule name="AvoidComplexConditionRule"

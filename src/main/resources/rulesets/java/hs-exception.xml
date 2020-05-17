@@ -10,6 +10,7 @@
           message="java.exception.MethodReturnWrapperTypeRule.rule.msg"
           class="com.hundsun.jres.studio.lang.java.rule.exception.MethodReturnWrapperTypeRule">
         <priority>2</priority>
+        <description>java.exception.MethodReturnWrapperTypeRule.rule.msg</description>
         <example>
             <![CDATA[
     public int method() {
@@ -25,6 +26,7 @@
           message="java.exception.AvoidReturnInFinallyRule.rule.msg"
           class="com.hundsun.jres.studio.lang.java.rule.exception.AvoidReturnInFinallyRule">
         <priority>1</priority>
+        <description>java.exception.AvoidReturnInFinallyRule.rule.msg</description>
         <example>
             <![CDATA[
 Negative example:

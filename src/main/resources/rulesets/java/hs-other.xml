@@ -65,6 +65,7 @@
           message="java.other.AvoidMissUseOfMathRandomRule.rule.msg"
           class="com.hundsun.jres.studio.lang.java.rule.other.AvoidMissUseOfMathRandomRule">
         <priority>1</priority>
+        <description>java.other.AvoidMissUseOfMathRandomRule.rule.msg</description>
         <example>
 <![CDATA[
 Negative example:

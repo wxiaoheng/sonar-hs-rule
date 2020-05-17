@@ -85,6 +85,7 @@
 
     <rule name="EnumConstantsMustHaveCommentRule" message="java.comment.EnumConstantsMustHaveCommentRule.rule.msg"
         class="com.hundsun.jres.studio.lang.java.rule.comment.EnumConstantsMustHaveCommentRule">
+        <description>java.comment.EnumConstantsMustHaveCommentRule.rule.msg</description>
         <priority>1</priority>
 
         <example>
@@ -116,6 +117,7 @@
     <rule name="AvoidCommentBehindStatementRule"
         message="java.comment.AvoidCommentBehindStatementRule.rule.msg"
         class="com.hundsun.jres.studio.lang.java.rule.comment.AvoidCommentBehindStatementRule">
+        <description>java.comment.AvoidCommentBehindStatementRule.rule.msg</description>
         <priority>2</priority>
 
         <example>

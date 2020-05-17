@@ -8,6 +8,7 @@
         message="java.set.ClassCastExceptionWithToArrayRule.rule.msg"
         class="com.hundsun.jres.studio.lang.java.rule.set.ClassCastExceptionWithToArrayRule">
         <priority>1</priority>
+        <description>java.set.ClassCastExceptionWithToArrayRule.rule.msg</description>
         <example>
         <![CDATA[    
 Negative example:  
@@ -26,6 +27,7 @@ Positive example：
         message="java.set.UnsupportedExceptionWithModifyAsListRule.rule.msg"
         class="com.hundsun.jres.studio.lang.java.rule.set.UnsupportedExceptionWithModifyAsListRule">
         <priority>1</priority>
+        <description>java.set.UnsupportedExceptionWithModifyAsListRule.rule.msg</description>
         <example>
        <![CDATA[ 
 Positive example:
@@ -66,6 +68,7 @@ Positive example:
         message="java.set.ConcurrentExceptionWithModifyOriginSubListRule.rule.msg"
         class="com.hundsun.jres.studio.lang.java.rule.set.ConcurrentExceptionWithModifyOriginSubListRule">
         <priority>1</priority>
+        <description>java.set.ConcurrentExceptionWithModifyOriginSubListRule.rule.msg</description>
         <example>
       <![CDATA[
 Negative example:                
@@ -83,8 +86,8 @@ Negative example:
         message="java.set.DontModifyInForeachCircleRule.rule.msg"
         class="com.hundsun.jres.studio.lang.java.rule.set.DontModifyInForeachCircleRule">
         <priority>1</priority>
-
-        <example>
+		<description>java.set.DontModifyInForeachCircleRule.rule.msg</description>
+	<example>
         <![CDATA[ 
  Negative example:   
    List<String> originList = new ArrayList<String>();

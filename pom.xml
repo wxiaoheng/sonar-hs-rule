@@ -5,7 +5,7 @@
   <parent>
     <groupId>org.sonarsource.parent</groupId>
     <artifactId>parent</artifactId>
-    <version>24</version>
+    <version>52</version>
   </parent>
 
   <groupId>com.hundsun.jres.studio</groupId>
@@ -54,9 +54,8 @@
   <properties>
     <maven.test.redirectTestOutputToFile>true</maven.test.redirectTestOutputToFile>
 
-    <pmd.version>5.4.2</pmd.version>
-    <sonar.version>4.5.4</sonar.version>
-    <sonar-java.version>4.2</sonar-java.version>
+    <sonar.version>7.7</sonar.version>
+    <sonar-java.version>6.0.1.20589</sonar-java.version>
 
     <!-- Configuration for sonar-packaging-maven-plugin -->
     <sonar.pluginKey>hs</sonar.pluginKey>
@@ -67,8 +66,9 @@
   </properties>
 
   <dependencies>
+  
     <dependency>
-      <groupId>org.codehaus.sonar</groupId>
+      <groupId>org.sonarsource.sonarqube</groupId>
       <artifactId>sonar-plugin-api</artifactId>
       <scope>provided</scope>
       <version>${sonar.version}</version>
@@ -84,59 +84,49 @@
       <artifactId>sonar-java-plugin</artifactId>
       <version>${sonar-java.version}</version>
       <scope>provided</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.codehaus.sonar.sslr-squid-bridge</groupId>
-      <artifactId>sslr-squid-bridge</artifactId>
-      <version>2.6</version>
-    </dependency>
-    <dependency>
-      <groupId>net.sourceforge.pmd</groupId>
-      <artifactId>pmd-core</artifactId>
-      <version>${pmd.version}</version>
-      <exclusions>
+    <exclusions>
         <exclusion>
-          <groupId>junit</groupId>
-          <artifactId>junit</artifactId>
+          <groupId>com.google.code.gson</groupId>
+          <artifactId>gson</artifactId>
         </exclusion>
         <exclusion>
-          <groupId>xml-apis</groupId>
-          <artifactId>xml-apis</artifactId>
-        </exclusion>
-        <exclusion>
-          <groupId>xerces</groupId>
-          <artifactId>xercesImpl</artifactId>
-        </exclusion>
-        <exclusion>
-          <groupId>com.beust</groupId>
-          <artifactId>jcommander</artifactId>
-        </exclusion>
-        <exclusion>
-          <groupId>net.java.dev.javacc</groupId>
-          <artifactId>javacc</artifactId>
+          <groupId>com.google.code.findbugs</groupId>
+          <artifactId>jsr305</artifactId>
         </exclusion>
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>net.sourceforge.pmd</groupId>
-      <artifactId>pmd-java</artifactId>
-      <version>${pmd.version}</version>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>19.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.sonarsource.sslr-squid-bridge</groupId>
+  		<artifactId>sslr-squid-bridge</artifactId>
+      <version>2.7.0.377</version>
       <exclusions>
         <exclusion>
-          <groupId>xml-apis</groupId>
-          <artifactId>xml-apis</artifactId>
+          <groupId>org.picocontainer</groupId>
+          <artifactId>picocontainer</artifactId>
         </exclusion>
         <exclusion>
-          <groupId>xerces</groupId>
-          <artifactId>xercesImpl</artifactId>
+          <groupId>commons-lang</groupId>
+          <artifactId>commons-lang</artifactId>
         </exclusion>
         <exclusion>
-          <groupId>net.java.dev.javacc</groupId>
-          <artifactId>javacc</artifactId>
+          <groupId>com.google.code.findbugs</groupId>
+          <artifactId>jsr305</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>com.google.guava</groupId>
+          <artifactId>guava</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>org.slf4j</groupId>
+          <artifactId>slf4j-api</artifactId>
         </exclusion>
       </exclusions>
     </dependency>
-
     <!-- dependency>
       <groupId>com.alibaba.p3c</groupId>
       <artifactId>p3c-pmd</artifactId>
@@ -146,7 +136,7 @@
 	 <dependency>
       <groupId>com.hundsun.jres.studio</groupId>
       <artifactId>hep-rule-java</artifactId>
-      <version>1.0.9-SNAPSHOT</version>
+      <version>1.0.8-SNAPSHOT</version>
     </dependency>
 
     <dependency>
@@ -167,12 +157,12 @@
       <scope>test</scope>
     </dependency>
 
-    <dependency>
+    <!--dependency>
       <groupId>org.codehaus.sonar</groupId>
       <artifactId>sonar-testing-harness</artifactId>
       <scope>test</scope>
       <version>${sonar.version}</version>
-    </dependency>
+    </dependency-->
 
     <dependency>
       <groupId>org.mockito</groupId>
@@ -185,8 +175,8 @@
       <groupId>commons-io</groupId>
       <artifactId>commons-io</artifactId>
       <version>2.4</version>
-      <scope>test</scope>
     </dependency>
+    
   </dependencies>
 
   <build>

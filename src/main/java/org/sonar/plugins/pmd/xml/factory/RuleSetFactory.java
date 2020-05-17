@@ -17,32 +17,19 @@
  * along with this program; if not, write to the Free Software Foundation,
  * Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
  */
-package org.sonar.plugins.pmd;
+package org.sonar.plugins.pmd.xml.factory;
 
-import java.util.Objects;
-import javax.annotation.Nullable;
+import java.io.Closeable;
 
-import org.sonar.api.rules.RulePriority;
+import org.sonar.plugins.pmd.xml.PmdRuleSet;
 
-public final class PmdLevelUtils {
+/**
+ * Interface for all RuleSetFactories.
+ */
+public interface RuleSetFactory extends Closeable {
 
-    private static final int INDEX_LEVEL = RulePriority.values().length;
-    private PmdLevelUtils() {
-        // only static methods
-    }
-
-    public static RulePriority fromLevel(@Nullable Integer level) {
-
-        if (Objects.isNull(level)) {
-            return null;
-        }
-
-        final int index = Math.abs(INDEX_LEVEL - level);
-
-        return (index < INDEX_LEVEL) ? RulePriority.valueOfInt(index) : null;
-    }
-
-    public static Integer toLevel(RulePriority priority) {
-        return Math.abs(priority.ordinal() - INDEX_LEVEL);
-    }
+    /**
+     * @return A PMD Ruleset.
+     */
+    PmdRuleSet create();
 }

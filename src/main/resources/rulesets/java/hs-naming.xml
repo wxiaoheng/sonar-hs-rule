@@ -11,6 +11,7 @@
           message="java.naming.ClassNamingShouldBeCamelRule.rule.msg"
           class="com.hundsun.jres.studio.lang.java.rule.naming.ClassNamingShouldBeCamelRule">
         <priority>1</priority>
+        <description>java.naming.ClassNamingShouldBeCamelRule.rule.msg</description>
     </rule>
 
     <rule name="AbstractClassShouldStartWithAbstractNamingRule"
@@ -19,6 +20,7 @@
           message="java.naming.AbstractClassShouldStartWithAbstractNamingRule.rule.msg"
           class="com.hundsun.jres.studio.lang.java.rule.naming.AbstractClassShouldStartWithAbstractNamingRule">
         <priority>2</priority>
+        <description>java.naming.AbstractClassShouldStartWithAbstractNamingRule.rule.msg</description>
         <example>
             <![CDATA[
     abstract class BaseControllerDemo{
@@ -36,6 +38,7 @@
           message="java.naming.ExceptionClassShouldEndWithExceptionRule.rule.msg"
           class="com.hundsun.jres.studio.lang.java.rule.naming.ExceptionClassShouldEndWithExceptionRule">
         <priority>1</priority>
+        <description>java.naming.ExceptionClassShouldEndWithExceptionRule.rule.msg</description>
         <example>
             <![CDATA[
     public class CacheDemoException extends Exception{
@@ -51,6 +54,7 @@
           message="java.naming.TestClassShouldEndWithTestNamingRule.rule.msg"
           class="com.hundsun.jres.studio.lang.java.rule.naming.TestClassShouldEndWithTestNamingRule">
         <priority>1</priority>
+        <description>java.naming.TestClassShouldEndWithTestNamingRule.rule.msg</description>
         <example>
             <![CDATA[
     public class DemoTest {
@@ -65,6 +69,7 @@
           message="java.naming.LowerCamelCaseVariableNamingRule.rule.msg"
           class="com.hundsun.jres.studio.lang.java.rule.naming.LowerCamelCaseVariableNamingRule">
         <priority>1</priority>
+        <description>java.naming.LowerCamelCaseVariableNamingRule.rule.msg</description>
     </rule>
 
     <rule name="AvoidStartWithDollarAndUnderLineNamingRule"
@@ -73,6 +78,7 @@
           message="java.naming.AvoidStartWithDollarAndUnderLineNamingRule.rule.msg"
           class="com.hundsun.jres.studio.lang.java.rule.naming.AvoidStartWithDollarAndUnderLineNamingRule">
         <priority>1</priority>
+        <description>java.naming.AvoidStartWithDollarAndUnderLineNamingRule.rule.msg</description>
     </rule>
 
     <rule name="ConstantFieldShouldBeUpperCaseRule"
@@ -81,6 +87,7 @@
           message="java.naming.ConstantFieldShouldBeUpperCaseRule.rule.msg"
           class="com.hundsun.jres.studio.lang.java.rule.naming.ConstantFieldShouldBeUpperCaseRule">
         <priority>1</priority>
+        <description>java.naming.ConstantFieldShouldBeUpperCaseRule.rule.msg</description>
         <example>
             <![CDATA[
     public class ConstantNameDemo {
@@ -99,6 +106,7 @@
           message="java.naming.ServiceOrDaoClassShouldEndWithImplRule.rule.msg"
           class="com.hundsun.jres.studio.lang.java.rule.naming.ServiceOrDaoClassShouldEndWithImplRule">
         <priority>1</priority>
+        <description>java.naming.ServiceOrDaoClassShouldEndWithImplRule.rule.msg</description>
         <example>
             <![CDATA[
     public interface DemoService{
@@ -121,6 +129,7 @@
           message="java.naming.PackageNamingRule.rule.msg"
           class="com.hundsun.jres.studio.lang.java.rule.naming.PackageNamingRule">
         <priority>1</priority>
+        <description>java.naming.PackageNamingRule.rule.msg</description>
         <example>
             <![CDATA[
     com.HS.mpp.util / com.taobao.tddl.domain.dto
@@ -134,6 +143,7 @@
           message="java.naming.BooleanPropertyShouldNotStartWithIsRule.rule.msg"
           class="com.hundsun.jres.studio.lang.java.rule.naming.BooleanPropertyShouldNotStartWithIsRule">
         <priority>1</priority>
+        <description>java.naming.BooleanPropertyShouldNotStartWithIsRule.rule.msg</description>
         <example>
             <![CDATA[
     public class DemoDO{
@@ -150,6 +160,7 @@
           message="java.naming.ArrayNamingShouldHaveBracketRule.rule.msg"
           class="com.hundsun.jres.studio.lang.java.rule.naming.ArrayNamingShouldHaveBracketRule">
         <priority>1</priority>
+        <description>java.naming.ArrayNamingShouldHaveBracketRule.rule.msg</description>
         <example>
             <![CDATA[
     String[] a = new String[3];

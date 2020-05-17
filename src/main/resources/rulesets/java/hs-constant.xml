@@ -9,6 +9,7 @@
         message="java.constant.UpperEllRule.rule.msg"
         class="com.hundsun.jres.studio.lang.java.rule.constant.UpperEllRule">
         <priority>1</priority>
+        <description>java.constant.UpperEllRule.rule.msg</description>
         <example>
       <![CDATA[
 Negative example:
@@ -28,7 +29,7 @@ Positive example:
         message="java.constant.UndefineMagicConstantRule.rule.msg"
         class="com.hundsun.jres.studio.lang.java.rule.constant.UndefineMagicConstantRule">
         <priority>1</priority>
-
+		<description>java.constant.UndefineMagicConstantRule.rule.msg</description>
         <example>
         <![CDATA[    
 Negative example:

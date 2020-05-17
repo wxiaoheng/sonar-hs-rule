@@ -241,7 +241,7 @@
   </rule>
   <rule key="EqualsAvoidNullRule">
     <priority>CRITICAL</priority>
-    <configKey><![CDATA[rulesets/java/hundsun.xml/EqualsAvoidNullRule]]></configKey>
+    <configKey><![CDATA[rulesets/java/hs-oop.xml/EqualsAvoidNullRule]]></configKey>
   </rule>
   <rule key="ServiceMethodFieldsShouldPackageTypeRule">
     <priority>CRITICAL</priority>
